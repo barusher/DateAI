@@ -142,7 +142,7 @@ public class TinderBoltApp extends MultiSessionTelegramBot {
                 case 3:
                     me.hobby = message;
                     questionCount = 4;
-                    sendTextMessage("Что вас отталкивает в людях?");
+                    sendTextMessage("Что-то вас отталкивает в людях?");
                     return;
                 case 4:
                     me.annoys = message;
